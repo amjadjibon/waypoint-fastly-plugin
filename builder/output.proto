@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package platform;
+
+option go_package = "github.com/amjadjibon/waypoint-fastly-plugin/builder:builder";
+
+message Binary {
+  string location = 1;
+}
